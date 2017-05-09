@@ -1,0 +1,25 @@
+{
+  "name": "myworld",
+  "version": "1.0.0",
+  "description": "mijn eerste world met countries en cities",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "mocha": "^3.3.0"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "author": "jordy jeffry",
+  "license": "ISC"
+}
